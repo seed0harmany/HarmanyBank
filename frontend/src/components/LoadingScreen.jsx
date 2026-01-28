@@ -1,0 +1,28 @@
+import React from "react";
+
+export default function LoadingScreen({ size = 66, label = "Loading..." }) {
+  return (
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white backdrop-blur-sm">
+      <div className="flex flex-col items-center gap-4">
+        <div className="relative">
+
+          {/* LOGO — now blinking & fading */}
+          <div className="animate-pulseFade">
+             <img
+    src="/seed-logo.png"
+    alt="New Apex Bank"
+    className="h-[48px] w-auto object-contain"
+  />
+          </div>
+
+          {/* spinner ring */}
+          <div className="absolute inset-0 grid place-items-center">
+            <div className="w-[50px] h-[50px] border-2 border-white/30 border-t-[#0A2242] rounded-full animate-spin" />
+          </div>
+        </div>
+
+        {/* <div className="text-sm text-white/90 font-medium">{label}</div> */}
+      </div>
+    </div>
+  );
+}
