@@ -247,7 +247,7 @@ export default function TransactionsPreview({ transactions = SAMPLE_TRANSACTIONS
           })}
         </ul>
 
-         <Link to={'/account/history'} className="text-sm text-slate-700 flex items-center justify-center mt-5 gap-2 flex-1">
+         <Link to={'/account/history'} className="text-sm text-slate-700 flex items-center  hover:text-[#0A2242] justify-center p-5 gap-2 flex-1">
               Show all transactions <ChevronRight size={16} />
             </Link>
       </section>

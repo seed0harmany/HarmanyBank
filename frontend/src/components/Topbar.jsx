@@ -205,6 +205,13 @@ export default function Topbar({ onMenuClick }) {
         color: black;
         }
 
+        .mobile-menu-btn:hover{
+         background-color: #0A2242;
+         color: white;
+         padding: 5px;
+         border-radius: 5px;
+        }
+
 
         .profile-dropdown-wrapper {
           position: relative;

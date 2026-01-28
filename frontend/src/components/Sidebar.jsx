@@ -210,9 +210,12 @@ export default function Sidebar({ isOpen, onClose }) {
         }
 
         .sidebar-close:hover {
-          background: #F3F4F6;
-          color: #111827;
+         background-color: #0A2242;
+         color: white;
+         padding: 5px;
+         border-radius: 5px;
         }
+    
 
         .balance-card {
           background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);

@@ -17,7 +17,7 @@ const DISCLOSURES = [
   'I understand that depositing the same check more than once is a federal crime.',
   'I agree to retain the original check for 14 days and then securely destroy it.',
   'I understand that funds may be held per the Funds Availability Policy.',
-  'I authorize New Apex Bank to debit my account if this deposit is returned unpaid.'
+  'I authorize BANK OF HARMANI to debit my account if this deposit is returned unpaid.'
 ];
 
 export default function CheckDepositPage() {
@@ -274,7 +274,7 @@ export default function CheckDepositPage() {
             <div style={{ background: '#FEF3C7', border: '1px solid #FCD34D', borderRadius: '12px', padding: '16px', marginBottom: '24px', display: 'flex', gap: '12px' }}>
               <AlertCircle size={20} style={{ color: '#92400E', flexShrink: 0, marginTop: '2px' }} />
               <div style={{ fontSize: '14px', lineHeight: '1.6', color: '#92400E' }}>
-                <strong>Endorsement Required:</strong> Sign the back of the check with "For Mobile Deposit Only at New Apex Bank" above your signature.
+                <strong>Endorsement Required:</strong> Sign the back of the check with "For Mobile Deposit Only at Bank Of Harmani" above your signature.
               </div>
             </div>
 

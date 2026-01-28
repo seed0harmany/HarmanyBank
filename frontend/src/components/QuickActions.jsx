@@ -126,6 +126,7 @@ export default function QuickActions() {
           display: flex;
           justify-content: center;
         }
+          
 
         .qa-toggle button {
           display: inline-flex;
@@ -141,6 +142,7 @@ export default function QuickActions() {
           font-weight: 600;
           cursor: pointer;
         }
+        
       `}</style>
 
       <div className="qa-wrapper">
@@ -182,7 +184,7 @@ export default function QuickActions() {
 
           <div className="qa-toggle">
             <button onClick={() => setExpanded(v => !v)}>
-              {expanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+              {expanded ? <ChevronUp className="hover:bg-[#0A2242] hover:text-white" size={16} /> : <ChevronDown className="hover:bg-[#0A2242] hover:text-white" size={16} />}
             </button>
           </div>
         </section>
